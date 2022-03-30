@@ -1,0 +1,562 @@
+{
+    "statistics": [
+        {
+            "period": "ALL",
+            "groups": [
+                {
+                    "groupName": "Possession",
+                    "statisticsItems": [
+                        {
+                            "name": "Ball possession",
+                            "home": "35%",
+                            "away": "65%",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Shots",
+                    "statisticsItems": [
+                        {
+                            "name": "Total shots",
+                            "home": "8",
+                            "away": "22",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Shots on target",
+                            "home": "3",
+                            "away": "4",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Shots off target",
+                            "home": "5",
+                            "away": "14",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Blocked shots",
+                            "home": "0",
+                            "away": "4",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "TVData",
+                    "statisticsItems": [
+                        {
+                            "name": "Corner kicks",
+                            "home": "2",
+                            "away": "5",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Offsides",
+                            "home": "1",
+                            "away": "1",
+                            "compareCode": 3
+                        },
+                        {
+                            "name": "Fouls",
+                            "home": "12",
+                            "away": "8",
+                            "compareCode": 1
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Shots extra",
+                    "statisticsItems": [
+                        {
+                            "name": "Big chances",
+                            "home": "2",
+                            "away": "0",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Big chances missed",
+                            "home": "1",
+                            "away": "0",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Hit woodwork",
+                            "home": "1",
+                            "away": "0",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Shots inside box",
+                            "home": "7",
+                            "away": "13",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Shots outside box",
+                            "home": "1",
+                            "away": "9",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Goalkeeper saves",
+                            "home": "4",
+                            "away": "1",
+                            "compareCode": 1
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Passes",
+                    "statisticsItems": [
+                        {
+                            "name": "Passes",
+                            "home": "309",
+                            "away": "568",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Accurate passes",
+                            "home": "201 (65%)",
+                            "away": "488 (86%)",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Long balls",
+                            "home": "22\/65 (34%)",
+                            "away": "20\/47 (43%)",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Crosses",
+                            "home": "2\/9 (22%)",
+                            "away": "10\/22 (45%)",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Duels",
+                    "statisticsItems": [
+                        {
+                            "name": "Dribbles",
+                            "home": "7\/11 (64%)",
+                            "away": "9\/20 (45%)",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Possession lost",
+                            "home": "151",
+                            "away": "145",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Duels won",
+                            "home": "51",
+                            "away": "50",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Aerials won",
+                            "home": "17",
+                            "away": "20",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Defending",
+                    "statisticsItems": [
+                        {
+                            "name": "Tackles",
+                            "home": "20",
+                            "away": "9",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Interceptions",
+                            "home": "9",
+                            "away": "7",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Clearances",
+                            "home": "19",
+                            "away": "14",
+                            "compareCode": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "period": "1ST",
+            "groups": [
+                {
+                    "groupName": "Possession",
+                    "statisticsItems": [
+                        {
+                            "name": "Ball possession",
+                            "home": "38%",
+                            "away": "62%",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Shots",
+                    "statisticsItems": [
+                        {
+                            "name": "Total shots",
+                            "home": "5",
+                            "away": "7",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Shots on target",
+                            "home": "1",
+                            "away": "1",
+                            "compareCode": 3
+                        },
+                        {
+                            "name": "Shots off target",
+                            "home": "4",
+                            "away": "5",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Blocked shots",
+                            "home": "0",
+                            "away": "1",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "TVData",
+                    "statisticsItems": [
+                        {
+                            "name": "Corner kicks",
+                            "home": "1",
+                            "away": "2",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Offsides",
+                            "home": "0",
+                            "away": "1",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Shots extra",
+                    "statisticsItems": [
+                        {
+                            "name": "Big chances",
+                            "home": "0",
+                            "away": "0",
+                            "compareCode": 3
+                        },
+                        {
+                            "name": "Big chances missed",
+                            "home": "0",
+                            "away": "0",
+                            "compareCode": 3
+                        },
+                        {
+                            "name": "Hit woodwork",
+                            "home": "1",
+                            "away": "0",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Shots inside box",
+                            "home": "4",
+                            "away": "4",
+                            "compareCode": 3
+                        },
+                        {
+                            "name": "Shots outside box",
+                            "home": "1",
+                            "away": "3",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Goalkeeper saves",
+                            "home": "1",
+                            "away": "0",
+                            "compareCode": 1
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Passes",
+                    "statisticsItems": [
+                        {
+                            "name": "Passes",
+                            "home": "171",
+                            "away": "282",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Accurate passes",
+                            "home": "114 (67%)",
+                            "away": "237 (84%)",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Long balls",
+                            "home": "10\/33 (30%)",
+                            "away": "12\/34 (35%)",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Crosses",
+                            "home": "1\/4 (25%)",
+                            "away": "4\/6 (67%)",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Duels",
+                    "statisticsItems": [
+                        {
+                            "name": "Dribbles",
+                            "home": "3\/4 (75%)",
+                            "away": "2\/8 (25%)",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Possession lost",
+                            "home": "73",
+                            "away": "74",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Duels won",
+                            "home": "27",
+                            "away": "18",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Aerials won",
+                            "home": "10",
+                            "away": "9",
+                            "compareCode": 1
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Defending",
+                    "statisticsItems": [
+                        {
+                            "name": "Tackles",
+                            "home": "11",
+                            "away": "2",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Interceptions",
+                            "home": "4",
+                            "away": "4",
+                            "compareCode": 3
+                        },
+                        {
+                            "name": "Clearances",
+                            "home": "5",
+                            "away": "8",
+                            "compareCode": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "period": "2ND",
+            "groups": [
+                {
+                    "groupName": "Possession",
+                    "statisticsItems": [
+                        {
+                            "name": "Ball possession",
+                            "home": "32%",
+                            "away": "68%",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Shots",
+                    "statisticsItems": [
+                        {
+                            "name": "Total shots",
+                            "home": "3",
+                            "away": "15",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Shots on target",
+                            "home": "2",
+                            "away": "3",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Shots off target",
+                            "home": "1",
+                            "away": "9",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Blocked shots",
+                            "home": "0",
+                            "away": "3",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "TVData",
+                    "statisticsItems": [
+                        {
+                            "name": "Corner kicks",
+                            "home": "1",
+                            "away": "3",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Offsides",
+                            "home": "1",
+                            "away": "0",
+                            "compareCode": 1
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Shots extra",
+                    "statisticsItems": [
+                        {
+                            "name": "Big chances",
+                            "home": "2",
+                            "away": "0",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Big chances missed",
+                            "home": "1",
+                            "away": "0",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Hit woodwork",
+                            "home": "0",
+                            "away": "0",
+                            "compareCode": 3
+                        },
+                        {
+                            "name": "Shots inside box",
+                            "home": "3",
+                            "away": "9",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Shots outside box",
+                            "home": "0",
+                            "away": "6",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Goalkeeper saves",
+                            "home": "3",
+                            "away": "1",
+                            "compareCode": 1
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Passes",
+                    "statisticsItems": [
+                        {
+                            "name": "Passes",
+                            "home": "138",
+                            "away": "286",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Accurate passes",
+                            "home": "87 (63%)",
+                            "away": "251 (88%)",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Long balls",
+                            "home": "12\/32 (38%)",
+                            "away": "8\/13 (62%)",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Crosses",
+                            "home": "1\/5 (20%)",
+                            "away": "6\/16 (38%)",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Duels",
+                    "statisticsItems": [
+                        {
+                            "name": "Dribbles",
+                            "home": "4\/7 (57%)",
+                            "away": "7\/12 (58%)",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Possession lost",
+                            "home": "78",
+                            "away": "71",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Duels won",
+                            "home": "24",
+                            "away": "32",
+                            "compareCode": 2
+                        },
+                        {
+                            "name": "Aerials won",
+                            "home": "7",
+                            "away": "11",
+                            "compareCode": 2
+                        }
+                    ]
+                },
+                {
+                    "groupName": "Defending",
+                    "statisticsItems": [
+                        {
+                            "name": "Tackles",
+                            "home": "9",
+                            "away": "7",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Interceptions",
+                            "home": "5",
+                            "away": "3",
+                            "compareCode": 1
+                        },
+                        {
+                            "name": "Clearances",
+                            "home": "14",
+                            "away": "6",
+                            "compareCode": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

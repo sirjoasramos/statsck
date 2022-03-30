@@ -1,0 +1,9 @@
+<form>
+    <div class="form-group">
+        <label for="selectTorneio">Torneios</label>
+        <select class="form-control" id="selectTorneio" (change)="change($event)" name="selTorneio">
+            <option>Selecione um torneio</option>
+            <option *ngFor="let item of torneioList" [value]="item.id">{{item.name}}</option>
+        </select>
+    </div>
+</form>

@@ -1,0 +1,71 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <p>Home Teams Games</p>
+            <h4 *ngIf="homeTeams['ht']!=undefined">Total: {{homeTeams['ht'].length}}</h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>HOME</th>
+                            <th>AWAY</th>
+                            <!--
+                        <th style="border-left: 1px solid #ccc;">HP</th>
+                        <th>HS</th>
+                        <th>HSinT</th>
+        
+                        <th>HSBkd</th> -->
+                            <th>HCk</th>
+                            <!--
+                        <th style="border-left: 1px solid #ccc;">AP</th>
+                        <th>AS</th>
+                        <th>ASinT</th>
+                        
+                        <th>ASBkd</th>-->
+                            <th>ACk</th>
+                            <th>TCk</th>                         
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of homeTeams['ht']">
+
+                            <td>{{item.game.homeTeam}}
+                                <p>{{item.game.homeP}}º</p>
+                            </td>
+                            <td>{{item.game.awayTeam}}
+                                <p>{{item.game.awayP}}º</p>
+                            </td>
+                            <!--
+                        <td style="border-left: 1px solid #ccc;">{{item.ballPossession.home}}</td>
+                        <td>{{item.shots.home}}</td>
+                        <td>{{item.shotsInTarget.home}}</td>
+                 
+                        <td>{{item.shotsBlocked.home}}</td> -->
+                            <td>{{item.cornerKicks.home}}</td>
+                            <!--
+                        <td style="border-left: 1px solid #ccc;">{{item.ballPossession.away}}</td>
+                        <td>{{item.shots.away}}</td>
+                        <td>{{item.shotsInTarget.away}}</td>
+                    
+                        <td>{{item.shotsBlocked.away}}</td> -->
+                            <td>{{item.cornerKicks.away}}</td>
+                            <td>{{item.totalCornerKicks}}</td>
+                          
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h5 *ngIf="homeTeams['ht']!=undefined">Shots: {{homeTeams.sumShots / homeTeams['ht'].length | number}} |
+                    Shots In Target: {{homeTeams.sumShotsInTarget / homeTeams['ht'].length | number}} |
+                    Shots Blocked: {{homeTeams.sumShotsBlocked / homeTeams['ht'].length | number}} |
+                    Ck: {{homeTeams.sumCornersHome / homeTeams['ht'].length | number}}</h5>
+            </div>
+        </div>
+    </div>   
+</div>

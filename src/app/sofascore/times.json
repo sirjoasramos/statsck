@@ -1,0 +1,655 @@
+{
+    "standings": [
+        {
+            "tournament": {
+                "name": "Premier League",
+                "slug": "premier-league",
+                "category": {
+                    "name": "England",
+                    "slug": "england",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 1,
+                    "flag": "england",
+                    "alpha2": "EN"
+                },
+                "uniqueTournament": {
+                    "name": "Premier League",
+                    "slug": "premier-league",
+                    "category": {
+                        "name": "England",
+                        "slug": "england",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 1,
+                        "flag": "england",
+                        "alpha2": "EN"
+                    },
+                    "userCount": 964172,
+                    "id": 17
+                },
+                "priority": 258,
+                "id": 1
+            },
+            "type": "total",
+            "name": "Premier League",
+            "descriptions": [],
+            "tieBreakingRule": {
+                "text": "In the event that two (or more) teams have an equal number of points, the following rules break the tie: 1. Goal difference 2. Goals scored",
+                "id": 78
+            },
+            "rows": [
+                {
+                    "team": {
+                        "name": "Manchester City",
+                        "slug": "manchester-city",
+                        "shortName": "Man City",
+                        "gender": "M",
+                        "userCount": 784900,
+                        "nameCode": "MNC",
+                        "national": false,
+                        "type": 0,
+                        "id": 17,
+                        "teamColors": {
+                            "primary": "#66ccff",
+                            "secondary": "#ffffff",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "descriptions": [],
+                    "promotion": {
+                        "text": "Champions League",
+                        "id": 804
+                    },
+                    "position": 1,
+                    "matches": 27,
+                    "wins": 21,
+                    "losses": 3,
+                    "draws": 3,
+                    "scoresFor": 64,
+                    "scoresAgainst": 17,
+                    "points": 66,
+                    "id": 587446
+                },
+                {
+                    "team": {
+                        "name": "Liverpool",
+                        "slug": "liverpool",
+                        "shortName": "Liverpool",
+                        "gender": "M",
+                        "userCount": 913725,
+                        "nameCode": "LIV",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 44,
+                        "teamColors": {
+                            "primary": "#cc0000",
+                            "secondary": "#ffffff",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "descriptions": [],
+                    "promotion": {
+                        "text": "Champions League",
+                        "id": 804
+                    },
+                    "position": 2,
+                    "matches": 26,
+                    "wins": 18,
+                    "losses": 2,
+                    "draws": 6,
+                    "scoresFor": 70,
+                    "scoresAgainst": 20,
+                    "points": 60,
+                    "id": 587445
+                },
+                {
+                    "team": {
+                        "name": "Chelsea",
+                        "slug": "chelsea",
+                        "shortName": "Chelsea",
+                        "gender": "M",
+                        "userCount": 843398,
+                        "nameCode": "CHE",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 38,
+                        "teamColors": {
+                            "primary": "#0310a7",
+                            "secondary": "#ffffff",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "descriptions": [],
+                    "promotion": {
+                        "text": "Champions League",
+                        "id": 804
+                    },
+                    "position": 3,
+                    "matches": 25,
+                    "wins": 14,
+                    "losses": 3,
+                    "draws": 8,
+                    "scoresFor": 49,
+                    "scoresAgainst": 18,
+                    "points": 50,
+                    "id": 587440
+                },
+                {
+                    "team": {
+                        "name": "Manchester United",
+                        "slug": "manchester-united",
+                        "shortName": "Man Utd",
+                        "gender": "M",
+                        "userCount": 1042882,
+                        "nameCode": "MUN",
+                        "national": false,
+                        "type": 0,
+                        "id": 35,
+                        "teamColors": {
+                            "primary": "#ff0000",
+                            "secondary": "#373737",
+                            "text": "#373737"
+                        }
+                    },
+                    "descriptions": [],
+                    "promotion": {
+                        "text": "Champions League",
+                        "id": 804
+                    },
+                    "position": 4,
+                    "matches": 27,
+                    "wins": 13,
+                    "losses": 6,
+                    "draws": 8,
+                    "scoresFor": 44,
+                    "scoresAgainst": 34,
+                    "points": 47,
+                    "id": 587447
+                },
+                {
+                    "team": {
+                        "name": "West Ham United",
+                        "slug": "west-ham-united",
+                        "shortName": "West Ham",
+                        "gender": "M",
+                        "userCount": 168403,
+                        "nameCode": "WHU",
+                        "national": false,
+                        "type": 0,
+                        "id": 37,
+                        "teamColors": {
+                            "primary": "#66192c",
+                            "secondary": "#59b3e4",
+                            "text": "#59b3e4"
+                        }
+                    },
+                    "descriptions": [],
+                    "promotion": {
+                        "text": "UEFA Europa League",
+                        "id": 808
+                    },
+                    "position": 5,
+                    "matches": 27,
+                    "wins": 13,
+                    "losses": 8,
+                    "draws": 6,
+                    "scoresFor": 46,
+                    "scoresAgainst": 34,
+                    "points": 45,
+                    "id": 587453
+                },
+                {
+                    "team": {
+                        "name": "Arsenal",
+                        "slug": "arsenal",
+                        "shortName": "Arsenal",
+                        "gender": "M",
+                        "userCount": 535844,
+                        "nameCode": "ARS",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 42,
+                        "teamColors": {
+                            "primary": "#cc0000",
+                            "secondary": "#ffffff",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 6,
+                    "matches": 24,
+                    "wins": 14,
+                    "losses": 7,
+                    "draws": 3,
+                    "scoresFor": 38,
+                    "scoresAgainst": 27,
+                    "points": 45,
+                    "id": 587435
+                },
+                {
+                    "team": {
+                        "name": "Tottenham",
+                        "slug": "tottenham",
+                        "shortName": "Tottenham",
+                        "gender": "M",
+                        "userCount": 452127,
+                        "nameCode": "TOT",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 33,
+                        "teamColors": {
+                            "primary": "#ffffff",
+                            "secondary": "#000066",
+                            "text": "#000066"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 7,
+                    "matches": 25,
+                    "wins": 13,
+                    "losses": 9,
+                    "draws": 3,
+                    "scoresFor": 35,
+                    "scoresAgainst": 32,
+                    "points": 42,
+                    "id": 587451
+                },
+                {
+                    "team": {
+                        "name": "Wolverhampton",
+                        "slug": "wolverhampton",
+                        "shortName": "Wolverhampton",
+                        "gender": "M",
+                        "userCount": 121786,
+                        "nameCode": "WOL",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 3,
+                        "teamColors": {
+                            "primary": "#ff9900",
+                            "secondary": "#000000",
+                            "text": "#000000"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 8,
+                    "matches": 26,
+                    "wins": 12,
+                    "losses": 10,
+                    "draws": 4,
+                    "scoresFor": 24,
+                    "scoresAgainst": 21,
+                    "points": 40,
+                    "id": 587454
+                },
+                {
+                    "team": {
+                        "name": "Southampton",
+                        "slug": "southampton",
+                        "shortName": "Southampton",
+                        "gender": "M",
+                        "userCount": 74798,
+                        "nameCode": "SOU",
+                        "national": false,
+                        "type": 0,
+                        "id": 45,
+                        "teamColors": {
+                            "primary": "#ff0000",
+                            "secondary": "#ffffff",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 9,
+                    "matches": 26,
+                    "wins": 8,
+                    "losses": 7,
+                    "draws": 11,
+                    "scoresFor": 34,
+                    "scoresAgainst": 37,
+                    "points": 35,
+                    "id": 587450
+                },
+                {
+                    "team": {
+                        "name": "Brighton & Hove Albion",
+                        "slug": "brighton-hove-albion",
+                        "shortName": "Brighton",
+                        "gender": "M",
+                        "userCount": 64119,
+                        "nameCode": "BHA",
+                        "national": false,
+                        "type": 0,
+                        "id": 30,
+                        "teamColors": {
+                            "primary": "#0054a6",
+                            "secondary": "#ffffff",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 10,
+                    "matches": 26,
+                    "wins": 7,
+                    "losses": 7,
+                    "draws": 12,
+                    "scoresFor": 25,
+                    "scoresAgainst": 30,
+                    "points": 33,
+                    "id": 587438
+                },
+                {
+                    "team": {
+                        "name": "Crystal Palace",
+                        "slug": "crystal-palace",
+                        "shortName": "Crystal Palace",
+                        "gender": "M",
+                        "userCount": 78877,
+                        "nameCode": "CRY",
+                        "national": false,
+                        "type": 0,
+                        "id": 7,
+                        "teamColors": {
+                            "primary": "#0033ff",
+                            "secondary": "#b90d2b",
+                            "text": "#b90d2b"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 11,
+                    "matches": 27,
+                    "wins": 6,
+                    "losses": 9,
+                    "draws": 12,
+                    "scoresFor": 37,
+                    "scoresAgainst": 38,
+                    "points": 30,
+                    "id": 587441
+                },
+                {
+                    "team": {
+                        "name": "Leicester City",
+                        "slug": "leicester-city",
+                        "shortName": "Leicester",
+                        "gender": "M",
+                        "userCount": 269997,
+                        "nameCode": "LEI",
+                        "national": false,
+                        "type": 0,
+                        "id": 31,
+                        "teamColors": {
+                            "primary": "#003090",
+                            "secondary": "#ffffff",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 12,
+                    "matches": 24,
+                    "wins": 8,
+                    "losses": 10,
+                    "draws": 6,
+                    "scoresFor": 39,
+                    "scoresAgainst": 43,
+                    "points": 30,
+                    "id": 587444
+                },
+                {
+                    "team": {
+                        "name": "Aston Villa",
+                        "slug": "aston-villa",
+                        "shortName": "Aston Villa",
+                        "gender": "M",
+                        "userCount": 124643,
+                        "nameCode": "AVL",
+                        "national": false,
+                        "type": 0,
+                        "id": 40,
+                        "teamColors": {
+                            "primary": "#670e36",
+                            "secondary": "#94bee5",
+                            "text": "#94bee5"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 13,
+                    "matches": 25,
+                    "wins": 9,
+                    "losses": 13,
+                    "draws": 3,
+                    "scoresFor": 33,
+                    "scoresAgainst": 37,
+                    "points": 30,
+                    "id": 587436
+                },
+                {
+                    "team": {
+                        "name": "Newcastle United",
+                        "slug": "newcastle-united",
+                        "shortName": "Newcastle",
+                        "gender": "M",
+                        "userCount": 83011,
+                        "nameCode": "NEW",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 39,
+                        "teamColors": {
+                            "primary": "#000000",
+                            "secondary": "#ffffff",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 14,
+                    "matches": 25,
+                    "wins": 5,
+                    "losses": 10,
+                    "draws": 10,
+                    "scoresFor": 28,
+                    "scoresAgainst": 45,
+                    "points": 25,
+                    "id": 587448
+                },
+                {
+                    "team": {
+                        "name": "Brentford",
+                        "slug": "brentford",
+                        "shortName": "Brentford",
+                        "gender": "M",
+                        "userCount": 56981,
+                        "nameCode": "BRE",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 50,
+                        "teamColors": {
+                            "primary": "#ffffff",
+                            "secondary": "#ff0000",
+                            "text": "#ff0000"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 15,
+                    "matches": 27,
+                    "wins": 6,
+                    "losses": 15,
+                    "draws": 6,
+                    "scoresFor": 27,
+                    "scoresAgainst": 44,
+                    "points": 24,
+                    "id": 587437
+                },
+                {
+                    "team": {
+                        "name": "Leeds United",
+                        "slug": "leeds-united",
+                        "shortName": "Leeds",
+                        "gender": "M",
+                        "userCount": 118191,
+                        "nameCode": "LUN",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 34,
+                        "teamColors": {
+                            "primary": "#ffffff",
+                            "secondary": "#1d4189",
+                            "text": "#1d4189"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 16,
+                    "matches": 26,
+                    "wins": 5,
+                    "losses": 13,
+                    "draws": 8,
+                    "scoresFor": 29,
+                    "scoresAgainst": 60,
+                    "points": 23,
+                    "id": 587443
+                },
+                {
+                    "team": {
+                        "name": "Everton",
+                        "slug": "everton",
+                        "shortName": "Everton",
+                        "gender": "M",
+                        "userCount": 188126,
+                        "nameCode": "EVE",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 48,
+                        "teamColors": {
+                            "primary": "#274488",
+                            "secondary": "#ffffff",
+                            "text": "#ffffff"
+                        }
+                    },
+                    "descriptions": [],
+                    "position": 17,
+                    "matches": 24,
+                    "wins": 6,
+                    "losses": 14,
+                    "draws": 4,
+                    "scoresFor": 28,
+                    "scoresAgainst": 41,
+                    "points": 22,
+                    "id": 587442
+                },
+                {
+                    "team": {
+                        "name": "Burnley",
+                        "slug": "burnley",
+                        "shortName": "Burnley",
+                        "gender": "M",
+                        "userCount": 53487,
+                        "nameCode": "BUR",
+                        "national": false,
+                        "type": 0,
+                        "id": 6,
+                        "teamColors": {
+                            "primary": "#81204c",
+                            "secondary": "#8fd2f4",
+                            "text": "#8fd2f4"
+                        }
+                    },
+                    "descriptions": [],
+                    "promotion": {
+                        "text": "Relegation",
+                        "id": 3
+                    },
+                    "position": 18,
+                    "matches": 25,
+                    "wins": 3,
+                    "losses": 10,
+                    "draws": 12,
+                    "scoresFor": 22,
+                    "scoresAgainst": 32,
+                    "points": 21,
+                    "id": 587439
+                },
+                {
+                    "team": {
+                        "name": "Watford",
+                        "slug": "watford",
+                        "shortName": "Watford",
+                        "gender": "M",
+                        "userCount": 57618,
+                        "nameCode": "WAT",
+                        "disabled": false,
+                        "national": false,
+                        "type": 0,
+                        "id": 24,
+                        "teamColors": {
+                            "primary": "#fbd142",
+                            "secondary": "#000000",
+                            "text": "#000000"
+                        }
+                    },
+                    "descriptions": [],
+                    "promotion": {
+                        "text": "Relegation",
+                        "id": 3
+                    },
+                    "position": 19,
+                    "matches": 26,
+                    "wins": 5,
+                    "losses": 17,
+                    "draws": 4,
+                    "scoresFor": 25,
+                    "scoresAgainst": 47,
+                    "points": 19,
+                    "id": 587452
+                },
+                {
+                    "team": {
+                        "name": "Norwich City",
+                        "slug": "norwich-city",
+                        "shortName": "Norwich",
+                        "gender": "M",
+                        "userCount": 55200,
+                        "nameCode": "NOR",
+                        "national": false,
+                        "type": 0,
+                        "id": 263,
+                        "teamColors": {
+                            "primary": "#ffcc33",
+                            "secondary": "#336600",
+                            "text": "#336600"
+                        }
+                    },
+                    "descriptions": [],
+                    "promotion": {
+                        "text": "Relegation",
+                        "id": 3
+                    },
+                    "position": 20,
+                    "matches": 26,
+                    "wins": 4,
+                    "losses": 17,
+                    "draws": 5,
+                    "scoresFor": 15,
+                    "scoresAgainst": 55,
+                    "points": 17,
+                    "id": 587449
+                }
+            ],
+            "id": 73916,
+            "updatedAtTimestamp": 1640642445
+        }
+    ]
+}

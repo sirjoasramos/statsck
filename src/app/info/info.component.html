@@ -1,0 +1,26 @@
+<div *ngIf="games.length > 0">
+    <div class="row mb-2" *ngFor="let j of games">
+        <div class="col-12 text-center mt-2">
+            <small class="border-top border-info">{{getStartTimestamp(j.startTimestamp) | date: 'MMM d, y, h:mm:ss a'}}</small>
+        </div>
+
+        <div class="col-5 text-center">
+            <h6>{{j.homeTeam.ckCount | number: '1.0-1' }}</h6>
+            <label>{{j.homeTeam.shortName}}</label>
+            <h6 class="text text-success">{{j.homeTeam.poss}}º</h6>
+        </div>
+        <div class="col-2 text-center">
+            <small>+{{((j.homeTeam.ckCount + j.awayTeam.ckCount) * 2) / 3 | number: '1.0-0'}}</small>
+        </div>
+        <div class="col-5 text-center">
+            <h6>{{j.awayTeam.ckCount | number: '1.0-1' }}</h6>
+            <label>{{j.awayTeam.shortName}}</label>
+            <h6 class="text text-success">{{j.awayTeam.poss}}º</h6>
+        </div>
+       
+    </div>
+</div>
+
+<div class="col-12 text text-center" *ngIf="games.length == 0">
+    <label>{{msg}}</label>
+</div>

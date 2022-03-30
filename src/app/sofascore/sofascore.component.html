@@ -1,0 +1,16 @@
+<nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1"></span>
+</nav>
+
+<div class="row mt-4">
+    <div class="col-4 mx-auto">
+        <h6 class="text text-default"> Atualização de Torneios</h6>
+        <app-torneio (torneio)="setTorneio($event)"></app-torneio>
+    </div>
+</div>
+
+<div class="row mt-4" *ngIf="msg.length > 0">
+    <div class="col-4 mx-auto">
+        <h6 class="text text-primary">{{msg}}</h6>
+    </div>
+</div>

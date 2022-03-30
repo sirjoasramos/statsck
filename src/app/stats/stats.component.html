@@ -1,0 +1,100 @@
+<div class="container border border-default border-bottom-0" *ngIf="(homeTeams['jogos'] != undefined) && (homeTeams['jogos'].length > 0)">
+
+    <div class="row mb-4">
+        <div class="col">
+            <p class="border-bottom border-info pb-3 lead">Jogos como mandante</p>
+            <h6>Jogos: {{homeTeams['jogos'].length}} |
+                Ck: {{homeTeams.sumCornersHome / homeTeams['jogos'].length | number}} |
+                CountCkUnder: {{homeTeams.cAvgCkUnder}}
+            </h6>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div style="height: 200px; overflow: auto;">
+                <table class="table table-borderless">
+                    <thead>
+                        <tr>
+                            <th class="text text-primary">HOME</th>
+                            <th>AWAY</th>
+                            <th>HCk</th>
+                            <th>ACk</th>
+                            <th>TCk</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of homeTeams['jogos']">
+                            <td>
+                                <p>{{item.game.homeTeam}}</p>                            
+                            </td>
+                            <td>
+                                <p>{{item.game.awayTeam}}</p>                                
+                            </td>
+                            <td>{{item.cornerKicks.home}}</td>
+                            <td>{{item.cornerKicks.away}}</td>
+                            <td>{{item.totalCornerKicks}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="mx-auto"  style="position: relative; height:40vh; width:100vw; top: 1vw;">
+            <canvas id="teamChartHome"></canvas>
+        </div>
+    </div>
+</div>
+<div class="container mt-8 border border-default border-bottom-0" *ngIf="(awayTeams['jogos'] != undefined) && (awayTeams['jogos'].length > 0)" style="position: relative; top: 15vw">
+
+    <div class="row mb-4 mt-8">
+        <div class="col">
+            <h6 class=" border-bottom border-success pb-3 lead">Jogos como visitante</h6>
+            <h6>Jogos: {{awayTeams['jogos'].length}} |
+                Ck: {{awayTeams.sumCornersAway / awayTeams['jogos'].length | number}} |
+                CountCkUnder: {{awayTeams.cAvgCkUnder}}
+            </h6>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div style="height: 200px; overflow: auto;">
+                <table class="table table-borderless">
+                    <thead>
+                        <tr>
+                            <th>HOME</th>
+                            <th class="text text-primary">AWAY</th>
+                            <th>HCk</th>
+                            <th>ACk</th>
+                            <th>TCk</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of awayTeams['jogos']">
+                            <td>
+                                <p>{{item.game.homeTeam}}</p>                             
+                            </td>
+                            <td> 
+                                <p>{{item.game.awayTeam}}</p>                             
+                            </td>
+                            <td>{{item.cornerKicks.home}}</td>
+                            <td>{{item.cornerKicks.away}}</td>
+                            <td>{{item.totalCornerKicks}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="mx-auto" style="position: relative; height:40vh; width:100vw; top: 15vw;">
+            <canvas id="teamChartAway"></canvas>
+        </div>
+    </div>
+</div>

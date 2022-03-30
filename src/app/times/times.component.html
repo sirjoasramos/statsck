@@ -1,0 +1,9 @@
+<form  class="mt-4">
+    <div class="form-group">
+        <label for="selectTimes">Times</label>
+        <select class="form-control" id="selectTimes" (change)="change($event)">
+            <option>Selecione um time</option>
+            <option *ngFor="let item of teams" [value]="item">{{item}}</option>
+        </select>
+    </div>
+</form>
