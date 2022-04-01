@@ -10,7 +10,7 @@ import { TorneioClass } from './torneio/classes/TorneioClass';
 export class SofascoreService {
 
   private urlServer = 'https://statsck-api.rj.r.appspot.com';
-  //private urlServer = '"http://localhost:3000';
+  //private urlServer = 'http://localhost:3000';
 
   private urlApi = this.urlServer + "/run";
   private urlGetHomeTeams = this.urlServer + "/hometeams";
