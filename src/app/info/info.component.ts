@@ -97,7 +97,7 @@ export class InfoComponent implements OnChanges {
   }
 
   getStartTimestamp(t: number) {
-    return new Date(t * 1000).toLocaleString();
+    return new Date(t * 1000);
   }
 
   getHomeInfo(teamName: string): Observable<any> {

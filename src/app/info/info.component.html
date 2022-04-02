@@ -1,4 +1,4 @@
-<div *ngIf="games.length > 0">
+<div *ngIf="games.length > 0" class="info">
     <div class="row mb-2" *ngFor="let j of games">
         <div class="col-12 text-center mt-2">
             <small class="border-top border-info">{{getStartTimestamp(j.startTimestamp) | date: 'MMM d, y, h:mm:ss a'}}</small>
