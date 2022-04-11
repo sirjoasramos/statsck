@@ -14,6 +14,8 @@ import { StatsComponent } from './stats/stats.component';
 import { FormsModule } from '@angular/forms';
 import { InfoComponent } from './info/info.component';
 import { MainComponent } from './main/main.component';
+import { ClassificacaoComponent } from './classificacao/classificacao.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,14 +26,16 @@ import { MainComponent } from './main/main.component';
     TimesComponent,
     StatsComponent,
     InfoComponent,
-    MainComponent
+    MainComponent,
+    ClassificacaoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgChartsModule,
-    FormsModule
+    NgChartsModule, 
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

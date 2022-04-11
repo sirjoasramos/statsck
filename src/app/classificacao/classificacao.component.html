@@ -1,0 +1,23 @@
+<h6 class="text text-default text-center  border-top border-left border-dark lead"> Classificação </h6>
+<div>
+    <div class="row">
+        <div class="col-9">
+            <h6>
+                <fa-icon [icon]="faMapPin"></fa-icon>
+            </h6>
+        </div>
+        <div class="col-3">
+            <h6>J | P</h6>
+        </div>
+        <div class="col-9">
+            <h6 *ngFor="let item of teams">
+                <small>{{item.position}}º - {{item.team.shortName}}</small>
+            </h6>
+        </div>
+        <div class="col-3">
+            <h6 *ngFor="let item of teams">
+                <small>{{item.matches}} | {{item.points}} </small>
+            </h6>
+        </div>
+    </div>
+</div>

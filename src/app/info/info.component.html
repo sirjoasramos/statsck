@@ -1,7 +1,9 @@
-<div *ngIf="games.length > 0" class="info">
+<h6 class="text text-default text-center  border-top border-left border-dark lead"> Próximos Jogos</h6>
+<div *ngIf="games.length > 0" class="next-games">
     <div class="row mb-2" *ngFor="let j of games">
         <div class="col-12 text-center mt-2">
-            <small class="border-top border-info">{{getStartTimestamp(j.startTimestamp) | date: 'MMM d, y, h:mm:ss a'}}</small>
+            <small class="border-top border-info">{{getStartTimestamp(j.startTimestamp) | date: 'MMM d, y, h:mm:ss
+                a'}}</small>
         </div>
 
         <div class="col-5 text-center">
@@ -17,7 +19,7 @@
             <label>{{j.awayTeam.shortName}}</label>
             <h6 class="text text-success">{{j.awayTeam.poss}}º</h6>
         </div>
-       
+
     </div>
 </div>
 

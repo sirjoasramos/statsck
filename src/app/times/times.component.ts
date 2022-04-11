@@ -48,7 +48,7 @@ export class TimesComponent implements OnInit, OnChanges {
         for (let i = 0; i < 8; i++) {//gambiarra para torneios com grupos
           if (data.standings[i] != undefined) {
             data.standings[i].rows.forEach((el: any) => {
-              this.teams.push(el.team.shortName);
+              this.teams.push(el);
             });
           }
         }

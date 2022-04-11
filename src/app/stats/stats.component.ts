@@ -2,6 +2,8 @@ import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/cor
 import { Chart } from 'chart.js';
 import { SofascoreService } from '../sofascore.service';
 import { QueryComponent } from '../query/query.component';
+import { faFlag, faFutbol, faMapPin } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-stats',
@@ -16,6 +18,9 @@ export class StatsComponent extends QueryComponent implements OnChanges {
   @Input()
   torneio: any;
 
+  faFlag = faFlag;
+  faFutbol = faFutbol;
+  faMapPin = faMapPin;
   private torneioId: number = 0;
   private timeName: string = '';
   private chartRefHome!: Chart;

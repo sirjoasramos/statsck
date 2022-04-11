@@ -130,6 +130,12 @@ export const Torneios: any = [
         idSeason: 40230,
         name: 'J.League',
         apelido: 'Japao'
+    },
+    {
+        id: 325,
+        idSeason: 40557,
+        name: 'Brasileiro Série A',
+        apelido: 'Brasileirao'
     }
 ];
 
@@ -156,6 +162,7 @@ export enum TorneiosEnum {
     Chile = 19,
     Colombia = 20,
     Japao = 21,
+    Brasileirao = 22
 }
 
 export enum TorneiosEnumStr {
@@ -180,5 +187,6 @@ export enum TorneiosEnumStr {
     Leaguetwo = Torneios[TorneiosEnum.Leaguetwo].apelido,
     Chile = Torneios[TorneiosEnum.Chile].apelido,
     Colombia = Torneios[TorneiosEnum.Colombia].apelido,
-    Japao = Torneios[TorneiosEnum.Japao].apelido
+    Japao = Torneios[TorneiosEnum.Japao].apelido,
+    Brasileirao = Torneios[TorneiosEnum.Brasileirao].apelido
 }

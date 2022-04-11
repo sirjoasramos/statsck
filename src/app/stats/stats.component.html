@@ -1,4 +1,5 @@
-<div class="container border border-default border-bottom-0" *ngIf="(homeTeams['jogos'] != undefined) && (homeTeams['jogos'].length > 0)">
+<div class="container border border-default border-bottom-0"
+    *ngIf="(homeTeams['jogos'] != undefined) && (homeTeams['jogos'].length > 0)">
 
     <div class="row mb-4">
         <div class="col">
@@ -13,27 +14,52 @@
     <div class="row">
         <div class="col">
             <div style="height: 200px; overflow: auto;">
-                <table class="table table-borderless">
+                <table class="table table-borderless table-striped table-responsive">
                     <thead>
-                        <tr>
+                        <tr class="text text-center">
                             <th class="text text-primary">HOME</th>
                             <th>AWAY</th>
+                            <!--
                             <th>HCk</th>
-                            <th>ACk</th>
-                            <th>TCk</th>
+                            <th>ACk</th>-->
+                            <th>CornerKicks Total</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr *ngFor="let item of homeTeams['jogos']">
+                        <tr *ngFor="let item of homeTeams['jogos']" class="text text-center">
                             <td>
-                                <p>{{item.game.homeTeam}}</p>                            
+                                <p>{{item.game.homeTeam}}</p>
+                                <small>
+                                    {{item.cornerKicks.home}}&nbsp;<fa-icon [icon]="faFlag"></fa-icon>
+                                </small>
+                                &nbsp;&nbsp;
+                                <small>
+                                    {{item.game.homeScore}}&nbsp;<fa-icon [icon]="faFutbol"></fa-icon>
+                                </small>
+                                &nbsp;&nbsp;
+                                <small>
+                                    {{item.game.homeP}}&nbsp;<fa-icon [icon]="faMapPin"></fa-icon>
+                                </small>
                             </td>
                             <td>
-                                <p>{{item.game.awayTeam}}</p>                                
+                                <p>{{item.game.awayTeam}}</p>
+                                <small>
+                                    {{item.cornerKicks.away}}&nbsp;<fa-icon [icon]="faFlag"></fa-icon>
+                                </small>
+                                &nbsp;&nbsp;
+                                <small>
+                                    {{item.game.awayScore}}&nbsp;<fa-icon [icon]="faFutbol"></fa-icon>
+                                </small>
+                                &nbsp;&nbsp;
+                                <small>
+                                    {{item.game.awayP}}&nbsp;<fa-icon [icon]="faMapPin"></fa-icon>
+                                </small>
                             </td>
+                            <!--
                             <td>{{item.cornerKicks.home}}</td>
                             <td>{{item.cornerKicks.away}}</td>
-                            <td>{{item.totalCornerKicks}}</td>
+                            -->
+                            <td class="">{{item.totalCornerKicks}}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -43,12 +69,13 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="mx-auto"  style="position: relative; height:40vh; width:100vw; top: 1vw;">
+        <div class="mx-auto" style="position: relative; height:40vh; width:100vw; top: 1vw;">
             <canvas id="teamChartHome"></canvas>
         </div>
     </div>
 </div>
-<div class="container mt-8 border border-default border-bottom-0" *ngIf="(awayTeams['jogos'] != undefined) && (awayTeams['jogos'].length > 0)" style="position: relative; top: 15vw">
+<div class="container mt-8 border border-default border-bottom-0"
+    *ngIf="(awayTeams['jogos'] != undefined) && (awayTeams['jogos'].length > 0)" style="position: relative; top: 15vw">
 
     <div class="row mb-4 mt-8">
         <div class="col">
@@ -63,27 +90,49 @@
     <div class="row">
         <div class="col">
             <div style="height: 200px; overflow: auto;">
-                <table class="table table-borderless">
+                <table class="table table-borderless table-striped table-responsive">
                     <thead>
-                        <tr>
+                        <tr class="text text-center">
                             <th>HOME</th>
                             <th class="text text-primary">AWAY</th>
-                            <th>HCk</th>
-                            <th>ACk</th>
                             <th>TCk</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr *ngFor="let item of awayTeams['jogos']">
+                        <tr *ngFor="let item of awayTeams['jogos']" class="text text-center">
                             <td>
-                                <p>{{item.game.homeTeam}}</p>                             
+                                <p>{{item.game.homeTeam}}</p>
+                                <small>
+                                    {{item.cornerKicks.home}}&nbsp;<fa-icon [icon]="faFlag"></fa-icon>
+                                </small>
+                                &nbsp;&nbsp;
+                                <small>
+                                    {{item.game.homeScore}}&nbsp;<fa-icon [icon]="faFutbol"></fa-icon>
+                                </small>
+                                &nbsp;&nbsp;
+                                <small>
+                                    {{item.game.homeP}}&nbsp;<fa-icon [icon]="faMapPin"></fa-icon>
+                                </small>
                             </td>
-                            <td> 
-                                <p>{{item.game.awayTeam}}</p>                             
+                            <td>
+                                <p>{{item.game.awayTeam}}</p>
+                                <small>
+                                    {{item.cornerKicks.away}}&nbsp;<fa-icon [icon]="faFlag"></fa-icon>
+                                </small>
+                                &nbsp;&nbsp;
+                                <small>
+                                    {{item.game.awayScore}}&nbsp;<fa-icon [icon]="faFutbol"></fa-icon>
+                                </small>
+                                &nbsp;&nbsp;
+                                <small>
+                                    {{item.game.awayP}}&nbsp;<fa-icon [icon]="faMapPin"></fa-icon>
+                                </small>
                             </td>
+                            <!--
                             <td>{{item.cornerKicks.home}}</td>
                             <td>{{item.cornerKicks.away}}</td>
-                            <td>{{item.totalCornerKicks}}</td>
+                            -->
+                            <td class="">{{item.totalCornerKicks}}</td>
                         </tr>
                     </tbody>
                 </table>
